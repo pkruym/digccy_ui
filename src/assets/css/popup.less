@@ -1,0 +1,426 @@
+// 弹出层
+.pc-popup {
+  &.radius {
+    .yd-popup {
+      background: #ffffff;
+      box-shadow: 0 -3px 16px 0 rgba(169, 178, 185, 0.2);
+      border-radius: 10px 10px 0 0;
+    }
+    .coupons-main {
+      padding: 0;
+    }
+  }
+  .share-content {
+    width: 100%;
+    background: @bodyBg;
+
+    .share-head {
+      height: 40px;
+      line-height: 40px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #151e26;
+      width: 100%;
+      text-align: center;
+    }
+    .share-box {
+      display: flex;
+      height: 77px;
+      .box-item {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin: auto 0 auto 24px;
+        img {
+          height: 40px;
+          width: 40px;
+        }
+        p {
+          padding-top: 5px;
+          font-family: "PingFangSC-Regular";
+          font-size: 11px;
+          color: #151e26;
+          letter-spacing: 0;
+          text-align: center;
+        }
+      }
+    }
+    .share-btn {
+      height: 49px;
+      line-height: 49px;
+      width: 100%;
+      color: #8c9fad;
+      border-top: 5px #f4f4f4 solid;
+      text-align: center;
+    }
+  }
+  .content {
+    width: 6.5rem;
+    margin: 0 auto;
+    position: relative;
+    background: @bodyBg;
+    height: 6.08rem;
+    border-radius: 10px;
+    padding: 0.4rem;
+    &.order-success {
+      height: auto;
+      .popup-btn {
+        position: initial;
+        margin-top: 0.4rem;
+      }
+    }
+    &.bottom {
+      padding: 0;
+      width: 100%;
+      height: 6.36rem;
+    }
+    &.large {
+      height: 7.88rem;
+    }
+    &.order {
+      height: 4.08rem;
+    }
+    .pop-cancel {
+      width: 30px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .tanchuang_cancel {
+        background: url("~@/assets/img/2_7/tanchuang_cancel.png") no-repeat;
+        width: 14px;
+        height: 14px;
+        display: block;
+        background-size: cover;
+      }
+    }
+    &.buy {
+      height: 8.6rem;
+      width: 100%;
+      padding: 0 0.3rem;
+      .label {
+        color: @txtColor;
+      }
+      .yd-radio-text {
+        font-size: 12px;
+      }
+      &.moni {
+        height: 7.5rem;
+      }
+    }
+    h1 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: @txtColor;
+    }
+    .cell-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 0.72rem;
+      font-size: 12px;
+      position: relative;
+      flex: 1;
+      > span {
+        color: @txt2Color;
+      }
+      &.type {
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        .radio {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          > div {
+            display: flex;
+            flex: 1;
+            justify-content: space-around;
+            .yd-radio {
+              padding-right: 0;
+              .yd-radio-text {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .input-add {
+      border: 1px solid #cfd0d2;
+      border-radius: 5px;
+      height: 0.72rem;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      margin-left: 0.1rem;
+      // width: 4.9rem;
+      .input {
+        padding: 0.2rem;
+        // flex: 1;
+        width: 2.4rem;
+      }
+      .dw {
+        width: 1rem;
+        text-align: center;
+        color: @txt2Color;
+      }
+      .action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: @txt2Color;
+        width: 2rem;
+        border-left: 1px solid #cfd0d2;
+        span {
+          flex: 1;
+          height: 100%;
+          font-size: 20px;
+          text-align: center;
+          &:first-child {
+            border-right: 1px solid @lineColor;
+          }
+        }
+      }
+
+      &.large {
+        .input {
+          width: 2.9rem;
+        }
+      }
+      &.middle {
+        .input {
+          width: 2.4rem;
+        }
+        .action {
+          width: 1.9rem;
+        }
+      }
+      &.sim {
+        .input {
+          width: 2.2rem;
+        }
+        .action {
+          width: 1.8rem;
+        }
+      }
+    }
+    .head {
+      height: 0.88rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f7f6fb;
+      padding: 0 0.3rem;
+      .title {
+        flex: 1;
+        font-size: 15px;
+        color: @txtColor;
+        font-weight: bold;
+      }
+      .cancel {
+        width: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 13px;
+        color: #8c9fad;
+      }
+    }
+    .mid {
+      padding: 0.2rem 0.3rem;
+    }
+    .fd-num {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .fd-box {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0.26rem;
+        font-size: 13px;
+        .label {
+          color: @txt2Color;
+        }
+        .number {
+          color: @txtColor;
+          margin-top: 0.04rem;
+          font-family: "DIN-Medium";
+          &.green {
+            color: @fontColor;
+          }
+          &.red {
+            color: @fontRedColor;
+          }
+        }
+        &:last-child {
+          span {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .right-txt {
+      // width: 100;
+      color: @txt2Color;
+      text-align: right;
+      font-size: 13px;
+      height: 0.36rem;
+      margin-top: 0.1rem;
+      margin-bottom: 0.2rem;
+    }
+    .popup-btn {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      width: 100%;
+      bottom: 0.4rem;
+      left: 0;
+      justify-content: center;
+      .btn {
+        height: 0.8rem;
+        line-height: 0.8rem;
+        width: 2.72rem;
+        border: 1px solid #c5cfd5;
+        border-radius: 5px;
+        text-align: center;
+        color: @txtColor;
+        &.large {
+          width: 6.94rem;
+        }
+        &:not(.active) {
+          margin-right: 11px;
+        }
+        &.active {
+          background-color: @blueColor;
+          color: @writeColor;
+          border: none;
+        }
+      }
+    }
+    &.alert-content {
+      width: 6.5rem;
+      margin: 0 auto;
+      position: relative;
+      background: @bodyBg;
+      border-radius: 10px;
+      padding: 0.4rem;
+      height: 3.46rem;
+      color: @txtColor;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .popup-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        h1 {
+          font-size: 20px;
+          margin-bottom: 0.3rem;
+        }
+        .info {
+          font-size: 16px;
+        }
+      }
+      .alert-btn {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        .btn {
+          height: 0.8rem;
+          line-height: 0.8rem;
+          width: 2.72rem;
+          border-radius: 5px;
+          text-align: center;
+          color: @txtColor;
+          &.large {
+            width: 6.94rem;
+          }
+          & + .btn {
+            margin-left: 11px;
+          }
+          &.active {
+            background-color: @blueColor;
+            color: @writeColor;
+          }
+        }
+      }
+    }
+  }
+}
+//新杠杆合约地址
+.lever-contract {
+  background-color: @bodyBg;
+  // position: relative;
+
+  /deep/ .yd-popup-content {
+    overflow: hidden;
+    > div:first-child {
+      height: 100%;
+    }
+  }
+  .head-title {
+    font-size: 22px;
+    color: @txtColor;
+    font-weight: bold;
+    padding: 0.6rem 0.3rem 0.06rem;
+  }
+  .tabs {
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f0f2f3;
+    padding: 0 0.3rem;
+    position: relative;
+    .tab {
+      font-size: 14px;
+      width: 25%;
+      position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      &.active {
+        color: @blueColor;
+        &::after {
+          content: "";
+          height: 2px;
+          width: 50%;
+          position: absolute;
+          left: 0;
+          bottom: -1px;
+          background-color: @blueColor;
+        }
+      }
+    }
+  }
+  .list-wrap {
+    padding: 0 0.3rem;
+    overflow-y: scroll;
+    height: calc(~"100% - 2rem");
+    padding-bottom: 2rem;
+    .label-title {
+      height: 0.7rem;
+      line-height: 0.7rem;
+      text-align: left;
+      color: @blueColor;
+      position: relative;
+    }
+    .lever-box {
+      position: relative;
+      height: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .leve-name,
+      .leve-price {
+        font-size: 16px;
+        color: @txtColor;
+      }
+    }
+  }
+}

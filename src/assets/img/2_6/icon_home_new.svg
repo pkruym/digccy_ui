@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_home_new</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.6BitMoken移动端-首页" transform="translate(-18.000000, -30.000000)">
+            <g id="编组-6" transform="translate(18.000000, 30.000000)">
+                <g id="编组-5">
+                    <rect id="矩形" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+                    <g id="编组-12" transform="translate(4.000000, 2.000000)" stroke="#D5E0EF" stroke-width="2">
+                        <path d="M7.77989246,2.60562095 C11.0063981,2.60562095 13.6380742,5.152389 13.774349,8.3453534 L13.7798925,8.60562095 L13.7798925,14.1682842 L1.77989246,14.1682842 L1.77989246,8.60562095 L1.78543587,8.3453534 C1.92171072,5.152389 4.55338681,2.60562095 7.77989246,2.60562095 Z" id="路径"></path>
+                        <path d="M16.1567001,14.1682842 L1.13686838e-13,14.1682842 L16.1567001,14.1682842 Z" id="路径备份" stroke-linejoin="round"></path>
+                        <path d="M8.59113435,1.5 L6.96865056,1.5 L8.59113435,1.5 Z" id="路径备份-2" stroke-linejoin="round" transform="translate(7.779892, 1.500000) rotate(-90.000000) translate(-7.779892, -1.500000) "></path>
+                        <path d="M4.17989246,16.8 C5.07094924,18.2332026 6.25929943,18.9498039 7.74494303,18.9498039 C9.23058662,18.9498039 10.4422364,18.2332026 11.3798925,16.8" id="路径-3" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

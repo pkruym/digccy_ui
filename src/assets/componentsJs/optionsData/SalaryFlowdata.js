@@ -1,0 +1,17 @@
+export let type = [
+    { val: 0, lable: '全部' },
+    { val: 15, lable: '期货交易手续费' },
+    { val: 16, lable: '冻结期货履约保证金' },
+    { val: 17, lable: '退回期货履约保证金' },
+    { val: 18, lable: '撤单退回交易手续费' },
+    { val: 19, lable: '期货隔夜延期费' },
+    { val: 20, lable: '期货隔夜保证金' },
+    { val: 21, lable: '退回期货隔夜保证金' },
+    { val: 22, lable: '期货亏损' },
+    { val: 23, lable: '期货盈利' },
+    { val: 24, lable: '管理员操作' },
+    { val: 25, lable: '提现失败' },
+    { val: 26, lable: '人工充值' },
+    { val: 27, lable: '跟随费用' },
+    { val: 28, lable: '跟随收益' },
+]

@@ -1,0 +1,4 @@
+
+pbjs -t static-module -o src/assets/js/proto/MessageBuilder.js src/assets/js/proto/MessageBuilder.proto
+pbts src/assets/js/proto/MessageBuilder.js -o src/assets/js/proto/MessageBuilder.d.ts
+

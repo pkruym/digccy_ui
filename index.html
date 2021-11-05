@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+    />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <!-- <meta name="screen-orientation" content="portrait" /> -->
+    <!-- <script src="//pv.sohu.com/cityjson?ie=utf-8"></script> -->
+
+    <meta name="x5-orientation" content="portrait" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="<%= htmlWebpackPlugin.options.pathPrefix %>/static/icon.png"
+    />
+    <!-- <script src="<%= htmlWebpackPlugin.options.pathPrefix %>/static/charting_library/charting_library.min.js"></script> -->
+    <script src="<%= htmlWebpackPlugin.options.commonPrefix %>/config.js"></script>
+    <script src="<%= htmlWebpackPlugin.options.pathPrefix %>/static/vue<%= htmlWebpackPlugin.options.min %>.js"></script>
+    <script src="<%= htmlWebpackPlugin.options.pathPrefix %>/static/vue-router.min.js"></script>
+    <script src="<%= htmlWebpackPlugin.options.pathPrefix %>/static/vuex<%= htmlWebpackPlugin.options.min %>.js"></script>
+    <script src="<%= htmlWebpackPlugin.options.pathPrefix %>/static/axios.min.js"></script>
+
+    <!-- <script src="https://cdn-lalala.oss-cn-beijing.aliyuncs.com/bit-huobi/static/highcharts.js"></script> -->
+    <link
+      rel="shortcut icon"
+      href="<%= htmlWebpackPlugin.options.pathPrefix %>/static/favicon.ico"
+    />
+
+    <title>Huobi Lite</title>
+    <script>
+      /** ===================================以下代码暂无使用========================= **/
+      (function(win) {
+        var env = '"<%= htmlWebpackPlugin.options.env %>"'.replace(/"/g, "");
+        var host = "https://m.bitmoken.com"; //这里统一不变，用于访问协议项目，都用币投的一个
+        var uploadMark = "/trade";
+        var uploadUrlPrefix = "/tactics"; // 上传前缀(本地开发环境配置)
+        var uatDomain = "https://huobi.bitmoken.com";
+        var uatEnDomain = "";
+        switch (env) {
+          case "production": // 生产
+            host = host;
+            uploadUrlPrefix = "https://www.bitmoken.com";
+            uatDomain = "https://huobi.bitmoken.com"; // 用于访问活动也，例如：我的推广
+            uatEnDomain = "";
+            break;
+          case "uat": // 172测试环境配置
+            host = "http://47.56.88.172";
+            uatDomain = "http://47.56.88.172/speed/";
+            uatEnDomain = "http://47.56.88.172/speed_en/";
+            uploadUrlPrefix = "";
+            break;
+          case "development": // 开发
+            uploadUrlPrefix = uploadUrlPrefix;
+            host = uploadUrlPrefix;
+            break;
+        }
+        var config = {
+          env: env,
+          host: host,
+          domain: uatDomain, // 中文域名
+          domainEn: uatEnDomain, // 英文域名
+          uploadUrlPrefix: uploadUrlPrefix
+        };
+        win.config = config;
+      })(window);
+      /** ===================================end========================= **/
+    </script>
+    <!-- <script src="https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js"></script>
+    <script>
+        // 初始化
+        var vConsole = new VConsole();
+        console.log('Hello world');
+
+    </script> -->
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

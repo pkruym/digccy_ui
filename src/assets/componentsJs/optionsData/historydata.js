@@ -1,0 +1,15 @@
+export let windControlType = [
+    { val: null, lable: '全部' },
+    { val: 'STOP_PROFIT', lable: "达到止盈" },
+    { val: 'OVERNIGHT_SETTLE_EXPIRED', lable: "隔夜强平" },
+    { val: 'STOP_LOSS', lable: "达到止损" },
+    { val: 'MANUAL_MARKET', lable: "市价平仓" },
+    { val: 'MANUAL_LIMIT', lable: "委托价平仓" },
+    { val: 'MANUAL_REVERSE', lable: "市价反手平仓" },
+    { val: 'FORCE_SYSTEM', lable: "达到强平点" },
+    { val: 'FORCE_MANUAL', lable: "系统操作平仓" },
+    { val: 'FORCE_LIMIT', lable: "系统操作平仓" },
+    { val: 'NOT_ENOUGH_DELAYFEE', lable: "延期费不足平仓" },
+    { val: 'NOT_ENOUGH_DEPOSIT', lable: "隔夜保证金不足平仓" },
+    { val: 'CONTRACT_EXPIRED', lable: "合约到期强制平仓" },
+]

@@ -1,0 +1,96 @@
+div.weui-dialog {
+  width: 6.5rem;
+  border-radius: 10px;
+  background: @bodyBg;
+  max-width: 6.5rem;
+  padding: 0.4rem;
+}
+
+div.weui-dialog::before {
+  // position: absolute;
+  // content: "";
+  // display: block;
+  // height: 0.06rem;
+  // width: 5.2rem;
+  // top: 0;
+  // background: linear-gradient(to right bottom, #368cff, #0066ed);
+}
+
+div.weui-dialog .weui-dialog__hd {
+  /* display: none; */
+  color: @txtColor;
+  text-align: left;
+  padding: 0;
+
+  .weui-dialog__title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.weui-dialog__ft::after {
+  border-top: none !important;
+}
+
+.weui-dialog__btn::after {
+  border-left: none !important;
+}
+
+div.weui-dialog .weui-dialog__bd {
+  display: flex;
+  align-items: center;
+  font-size: 0.28rem;
+  padding: 0.3rem 0 0.6rem;
+  line-height: normal;
+  color: @txtColor;
+}
+
+div.weui-dialog .weui-dialog__bd:first-child {
+  padding: 0.6rem 0;
+}
+
+div.weui-dialog .weui-dialog__bd > div {
+  font-size: 0.28rem;
+  // max-width: 4.4rem;
+  word-wrap: break-word;
+}
+
+div.weui-dialog .weui-dialog__ft {
+  font-size: 0.32rem;
+}
+
+div.weui-dialog .weui-dialog__ft a {
+  border-color: @lineColor;
+}
+div.weui-dialog .weui-dialog__ft a.weui-dialog__btn {
+  border: 1px solid #c5cfd5;
+  border-radius: 5px;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 16px;
+  color: @txtColor;
+}
+div.weui-dialog .weui-dialog__ft a.weui-dialog__btn_primary {
+  background: #0066ed;
+  color: @writeColor;
+  border: none;
+}
+div.weui-dialog .weui-dialog__ft a.weui-dialog__btn_primary {
+  // color: @blueColor;
+}
+
+div.weui-dialog .weui-dialog__ft a.weui-dialog__btn_default {
+  // color: rgb(148, 159, 172);
+  margin-right: 0.2rem;
+}
+div.weui-mask {
+  z-index: 1501;
+}
+.weui-input {
+  font-family: "DIN-Medium";
+}
+div.vux-tab .vux-tab-item {
+  background: none;
+  position: relative;
+  .line05;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ico-index-nor</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1.9" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资金明细1.9" transform="translate(-780.000000, -80.000000)" fill="#9CA3B9" fill-rule="nonzero">
+            <g id="ico-index-nor" transform="translate(779.500000, 80.000000)">
+                <path d="M12.7869318,7.25 L12.7869318,14 L15.5,14 L15.5,5.32211538 L15.1803977,5 L12.7869318,7.25 Z M8.63802083,9.82211538 L8.63802083,14 L11.351089,14 L11.351089,8.375 L9.11742424,10.3040865 L8.63802083,9.82091346 L8.63802083,9.82211538 Z M4.48910985,8.37379808 L4.48910985,13.9987981 L7.20217803,13.9987981 L7.20217803,8.69591346 L5.76633523,7.40985577 L4.48910985,8.375 L4.48910985,8.37379808 Z M0.5,13.9987981 L3.21306818,13.9987981 L3.21306818,9.65985577 L0.5,12.0697115 L0.5,13.9987981 Z" id="Shape"></path>
+                <polygon id="Path" points="11.951049 0 13.8333333 2.09650383 8.97086247 6.45114943 5.67599068 3.54885057 0.5 8.06393678 0.5 10 5.67599068 5.48371648 8.97086247 8.38721264 14.9312354 3.06393678 16.5 4.83836207 16.5 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

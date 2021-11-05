@@ -1,0 +1,54 @@
+div.weui-dialog {
+  width: 5.2rem;
+  border-radius: 0.08rem;
+  &::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 0.06rem;
+    width: 5.2rem;
+    top: 0;
+    background: @blueColor;
+    // z-index: 5000;
+    // background: url(~@/assets/img/2_0/im_tanchuang_top@2x.png) no-repeat 100% 100%;
+  }
+  .weui-dialog__hd {
+    display: none;
+  }
+
+  .weui-dialog__bd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.28rem;
+    padding: 0.6rem 0;
+    line-height: normal;
+    color: @grey2Standard;
+
+    &:first-child {
+      padding: 0.6rem 0;
+    }
+
+    > div {
+      font-size: 0.28rem;
+      max-width: 4.4rem;
+      word-wrap: break-word;
+    }
+  }
+
+  .weui-dialog__ft {
+    font-size: 0.32rem;
+
+    a {
+      border-color: rgb(238, 238, 238);
+
+      &.weui-dialog__btn_primary {
+        color: @darkSkyBlue;
+      }
+
+      &.weui-dialog__btn_default {
+        color: @pink2Standard;
+      }
+    }
+  }
+}

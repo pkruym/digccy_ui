@@ -1,0 +1,4 @@
+1.打开node_modules,找到vux安装包，然后进入src->components->popup
+2.替换popup.js 或者找到
+ document.body.appendChild(this.divMask)
+ 替换成document.querySelector('.vux-popup-dialog').parentNode.appendChild(this.divMask)

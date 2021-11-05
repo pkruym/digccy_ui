@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewprot-fit=cover" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-orientation" content="portrait" />
+    <title>Huobi Lite</title>
+    <script>
+        (function () {
+            var env = "<%= htmlWebpackPlugin.options.env %>".replace(/"/g, "");
+            var lang = localStorage.getItem("language") || "auto";
+            // var config = {};
+            switch (env) {
+                case "development":
+                    break;
+                case "uat":
+                    break;
+                case "production":
+                    break;
+            }
+            var domain =
+                lang === "en" ?
+                "https://en.bitmoken.com/index.html" :
+                "https://www.bitmoken.com/index.html";
+            location.replace(domain);
+        })();
+
+    </script>
+</head>
+
+<body></body>
+
+</html>

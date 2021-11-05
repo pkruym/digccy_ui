@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#151E26" d="M0 0H375V812H0z" transform="translate(-25 -411)"/>
+        <path fill="#21303D" d="M17 400h341c1.105 0 2 .895 2 2v53H15v-53c0-1.105.895-2 2-2z" transform="translate(-25 -411)"/>
+        <g fill-rule="nonzero">
+            <path fill="#76C8FF" d="M.674 20.004l-.662-.381.053-16.364.656.382-.047 16.363zM6.374.381l.048 16.268-5.648 3.355L.721 3.638 6.374.381z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#2789FF" d="M0.721 3.646L0.065 3.265 5.718 0 6.374 0.381z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#76C8FF" d="M15.838 6.601L15.787 22.954 5.678 17.118 5.726 0.763 15.838 6.601z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#005CE2" d="M15.838 6.601L16.492 6.22 16.444 22.573 15.787 22.954z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#2789FF" d="M5.726 0.763L6.382 0.381 16.492 6.22 15.838 6.601z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#154989" d="M11.156 9.487L11.114 25.128 1.185 19.395 1.23 3.755z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#FF7517" d="M11.156 9.487L15.53 6.945 15.485 22.586 11.114 25.128z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#FFDF5A" d="M1.23 3.755L5.601 1.213 15.53 6.945 11.156 9.487z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#76C8FF" d="M10.833 9.487L10.786 25.84 0.674 20.002 0.721 3.649z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#005CE2" d="M10.833 9.487L11.49 9.106 11.44 25.459 10.786 25.84z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#2789FF" d="M0.721 3.649L1.378 3.267 11.49 9.106 10.833 9.487z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#FFDF5A" d="M9.597 8.828L9.583 13.75 8.223 11.391 6.856 12.169 6.867 7.25 9.597 8.828z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#FF7517" d="M9.606 8.828L9.683 8.801 9.661 13.724 9.583 13.75 9.606 8.828z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#FF7517" d="M9.597 8.873L10.343 8.42 10.343 8.378 9.597 8.828 9.597 8.873z" transform="translate(-25 -411) translate(34 415)"/>
+            <path fill="#FFB845" d="M6.867 7.25L7.611 6.8 10.343 8.378 9.597 8.828 6.867 7.25z" transform="translate(-25 -411) translate(34 415)"/>
+        </g>
+    </g>
+</svg>
